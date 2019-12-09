@@ -10,4 +10,7 @@ script:
 
 deploy:
   provider: azure_web_apps
-  
+  site: prmdocker-create922.azurewebsites.net
+
+on:
+  branch: master
