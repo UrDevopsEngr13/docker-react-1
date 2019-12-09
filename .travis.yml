@@ -7,3 +7,7 @@ before_install:
 
 script:
   - docker run renanpapa/docker-react npm run test -- --coverage
+
+deploy:
+  provider: azure_web_apps
+  
